@@ -1,0 +1,189 @@
+.head {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: .5rem 4%;
+    font-size: 2rem;
+    background-color: transparent;
+    z-index: 900;
+}
+
+.logo img {
+    width: 6rem;
+}
+
+
+
+.link {
+    text-decoration: none;
+    color: #7e22ce;
+    transition: .2s ease;
+    position: relative;
+}
+
+
+
+.search {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: .2rem solid #7e22ce;
+    border-radius: 2rem;
+    padding: 0rem 0rem;
+    overflow: hidden;
+    transform: scaleX(0);
+    transition: .3s ease-in-out;
+}
+
+.searchbox {
+    width: 85%;
+    padding: .5rem 1rem;
+    margin: 0;
+    text-transform: none;
+    background-color: transparent;
+
+}
+
+.searchbtn {
+    width: 25%;
+    height: 100%;
+    padding: .5rem 0rem;
+    border-radius: 2rem;
+    background-color: #7e22ce;
+    color: white;
+}
+
+.head .btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+}
+
+.btn .login {
+    width: auto;
+    height: auto;
+    padding: .5rem 2rem;
+    border: .2rem solid #7e22ce;
+    border-radius: 1rem;
+    color: #7e22ce;
+    background-color: transparent;
+    transition: .2s ease;
+}
+
+.btn .login:hover {
+    background-color: #55178a;
+    color: white;
+}
+.btn .loginactive{
+    background-color: #55178a;
+    color: white;
+}
+
+.menubtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .7rem;
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    background-color: #7e22ce;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    background: #55178a;
+    box-shadow: inset 34px 34px 68px #320e51,
+        inset -34px -34px 68px #7820c3;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.menubtnbubble {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    background-color: #55178a;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    transform: translate(-50%, -5 0%);
+    font-size: 1rem;
+    color: white;
+    background: #55178a;
+    box-shadow: inset 34px 34px 68px #320e51,
+    inset -34px -34px 68px #7820c3;
+    transition: .3s ease-in-out;
+    z-index: 999;
+}
+
+
+
+.line {
+    border: .1rem solid #ffffff;
+    border-radius: 3rem;
+    width: 3rem;
+    background-color: #fdfdfd;
+
+}
+
+.firstline {
+    transition: .4s ease-in-out;
+}
+
+.secondline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.secondline1 {
+    position: absolute;
+    transform: rotate(45deg);
+    transition: .2s ease-in-out;
+}
+
+.secondline2 {
+    transform: rotate(-45deg);
+    transition: .2s ease-in-out;
+}
+
+.thirdline {
+    transform: scaleX(1);
+    transition: .2s ease-in-out;
+}
+
+.fa-magnifying-glass {
+    font-size: 2rem;
+    background-color: transparent;
+    color: #55178a;
+    cursor: pointer;
+}
+.wapper{
+    position: fixed;
+    bottom: -100%;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    z-index: 999;
+}

@@ -1,0 +1,19 @@
+.itemcard{
+    width: 30rem;
+    height: 35rem;
+    border-radius: 3rem;
+    border-radius: 22px;
+    background: rgba(94, 94, 94, 0.25);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: .2s ease;
+    cursor: pointer;
+    
+}
+.itemcard:hover{
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transform: translateY(-0.8rem);
+    border-radius: 0px;
+}

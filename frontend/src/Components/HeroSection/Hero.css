@@ -1,0 +1,75 @@
+.herosection{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: .5s ease-in-out;
+    transition-delay: .1s;
+
+}
+
+.lefthero{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4rem 7%;
+    justify-content: center;
+}
+.lefthero h2{
+    font-size: 23rem;
+    color: #681ba8;
+    font-family: 'Monoton', sans-serif;
+}
+.lefthero p{
+    font-size: 1.3rem;
+}
+.lefthero .explorebtn{
+    width: auto;
+    height: auto;
+    padding: 1.5rem 3rem;
+    margin: 2rem 0rem;
+    font-size: 2rem;
+    color: #681ba8;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    background-color: rgb(219, 219, 219);
+}
+.fa-arrow-right{
+    margin-left: .7rem;
+    transition: .2s ease-in-out;
+}
+
+.lefthero .explorebtn:hover{
+   transform: translateX(4px);
+}
+.lefthero .explorebtn:hover .fa-arrow-right{
+   transform: translateX(4px);
+}
+
+
+.righthero{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.mySwiper{
+    width: 70%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    border-radius: 50px;
+background: linear-gradient(145deg, #f0f0f0, #cacaca);
+box-shadow:  31px 31px 92px #808080,
+             -31px -31px 92px #ffffff;
+
+}

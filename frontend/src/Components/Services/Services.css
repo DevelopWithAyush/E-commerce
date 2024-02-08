@@ -1,0 +1,26 @@
+.servicesection{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 10%;
+    margin: 15rem 0rem;
+}
+.servicecard{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: #681ba8;
+    cursor: pointer;
+}
+.servicecard i{
+    font-size: 3rem;
+    transition: .2s ease-in;
+}
+.servicecard:hover >i{
+    transform: scale(1.2);
+}
